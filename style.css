@@ -10,15 +10,12 @@ body {
     background-position: center;
 }
 
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-
 header{
+    width: 1024px;
     height: 118px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav{
@@ -26,6 +23,9 @@ nav{
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main{
@@ -43,6 +43,9 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 10px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -65,4 +68,8 @@ nav a {
     font-size: 12px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.map {
+    text-align: center;
 }
