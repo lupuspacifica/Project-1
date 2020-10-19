@@ -8,6 +8,7 @@ body {
     background-image: url(/img/background.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .container{
@@ -72,3 +73,10 @@ nav a {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: auto
+    }
+}
+    
